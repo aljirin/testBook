@@ -1,0 +1,915 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.nomargin {
+    margin: 0;
+    padding: 0;
+}
+
+.phoenix-header {
+    color: white;
+    background-color: rgba(8,114,185,1);
+    width: 100%;
+    height: 90px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.phoenix-bar-orange{
+    color: white;
+    background-color: rgba(229, 81, 1, 1);
+    width: 100%;
+    height: 90px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.phoenix-titlebar {
+    color: white;
+    background-color: rgba(16,76,143,1);
+    width: 100%;
+    height: 90px;
+    padding: 30px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+.subtitle-bar {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 70px;
+}
+#edit_button{
+    background-color:rgba(67,160,71,1);
+    color:white;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight:700;
+    float:right;
+}
+#save_button{
+    display: none;
+    background-color:rgba(8,114,185,1);
+    color:white;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight:700;
+    float:right;
+}
+
+.subtitle {
+    font-size: 2em;
+    font-weight: 700;
+    float: left;
+    margin-left: 10px;
+}
+
+.subtilte-sub {
+    margin-top: 11px;
+    font-weight: 600;
+    margin-left: 10px;
+    float: left;
+}
+
+.phoenix-content {
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    padding-top: 10px;
+}
+
+.phoenix-tabs {
+    width: 100%;
+    height: 81px;
+    background-color: rgba(51, 51, 51, 1);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.phoenix-tabs .active #tab {
+    border-bottom: 5px solid rgba(182, 28, 28, 1);
+    color: white;
+}
+
+.phoenix-tabs-2 {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top:10px;
+}
+
+.phoenix-tabs-2 li #tab{
+    height: 60px;
+    padding-top:0;
+    color:white;
+    background-color:rgba(178, 178, 178, 1);
+    padding-right:20px;
+}
+
+.phoenix-tabs-2 .active #tab{
+    color: white;
+    background-color: rgba(51, 51, 51, 1);
+}
+.phoenix-tabs-2 #tab img{
+    margin-left: -14px;
+    width:15px;
+}
+.phoenix-tabs-2 .active #tab img{
+    border-left: 5px solid rgba(182, 28, 28, 1);
+    margin-left: -14px;
+    width:15px;
+}
+
+
+#tab {
+    background: none;
+    color: grey;
+    border: 0;
+    height: 80px;
+    line-height: 55px;
+    font-size: 1.1em;
+}
+
+.header-title {
+    font-size: 2.1em;
+    float: left;
+    margin-top: 5px;
+}
+
+.collapse-button {
+    cursor: pointer;
+    margin-left: 55px;
+    width: 48px;
+}
+
+.right-header-menu {
+
+}
+
+.username-text {
+    float: left;
+    margin-top: 15px;
+}
+
+.vertical-line {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 1px; /* Line width */
+    background-color: lightgrey; /* Line color */
+    height: 50px; /* Override in-line if you want specific height. */
+    float: left;
+    /* Causes the line to float to left of content.
+           You can instead use position:absolute or display:inline-block
+           if this fits better with your design */
+}
+
+.icon-button {
+    float: left;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.icon-button-active {
+    float: left;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.profile-picture {
+    float: left;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+.wrapper, .row {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after,
+.column:after {
+    clear: both;
+}
+
+.row-offcanvas-left {
+    display: table;
+}
+
+.column {
+    display: table-cell;
+}
+
+.row-offcanvas-left .sidebar-offcanvas {
+    padding-left: 0;
+    float: left;
+    min-height: 100%;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    padding-right: 0;
+    width: 100%
+}
+
+.row-offcanvas-left .right-content {
+    width: 100%;
+}
+
+#sidebar .collapse.in {
+    display: inline;
+}
+
+#sidebar > .nav > li > a {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#sidebar #menu li a {
+    height: 60px;
+    color: white;
+    font-size: 1.3em;
+    padding-top: 15px;
+}
+
+.orange-background {
+    background-color: rgba(229, 81, 1, 1)
+}
+
+#sidebar #menu li a span {
+    margin-left: 14px;
+}
+
+#sidebar #menu li a:hover {
+    background-color: rgba(3,155,229,1);
+}
+
+#sidebar #menu .orange-background > a:hover {
+    background-color: rgba(229, 81, 1, 1)
+}
+
+#sidebar #menu li a:active, #sidebar #menu li a:focus {
+    background-color: rgba(26, 26, 26, 1)
+}
+
+.selected {
+    background-color: rgba(3,155,229,1);
+}
+
+.selected > a > img {
+    border-left: 5px solid rgba(79,195,247,1);
+    padding-left: 10px;
+    margin-left: -14px;
+}
+
+.search-bar {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    padding-right: 45px;
+}
+
+.green-btn {
+    background-color: rgba(67, 159, 71, 1);
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.orange-btn {
+    background-color: rgba(246, 146, 30, 1);
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.red-btn {
+    background-color: rgba(192, 39, 45, 1);
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.tambah_deposit_button {
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.tambah_deposit_button:hover {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+}
+
+.agen-profile-picture-small {
+    border-radius: 100%;
+    width: 35px;
+}
+
+.red-line-left {
+    border-left: 8px solid rgba(182, 28, 28, 1);
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+.red-line-right {
+    border-left: 8px solid rgba(182, 28, 28, 1);
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+.grey-box {
+    background-color: rgba(241, 241, 241, 1);
+    padding: 25px;
+    height: auto;
+}
+
+.text-bold {
+    font-weight: 600
+}
+
+.text-bolder {
+    font-weight: 700
+}
+
+.red-big-text {
+    color: rgba(182, 28, 28, 1);
+    font-size: 1.9em;
+    font-weight: 700;
+}
+
+.text-size-small {
+    font-size: 1.1em;
+}
+
+.text-size-medium {
+    font-size: 1.4em;
+}
+
+.form-control-edgy {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.directory-container {
+    margin-bottom: 5px;
+}
+
+.directory-container span {
+    font-weight: 600;
+}
+
+.small-btn {
+    height: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.form-control-grey {
+    background-color: rgba(127, 127, 128, 1);
+    color: white;
+}
+.form-control-green{
+    background-color: rgba(67, 159, 71, 1); border:none;
+    color: white;
+}
+
+.status-green {
+    color: rgba(67, 159, 71, 1);
+    border: 3px solid rgba(67, 159, 71, 1);
+    border-radius: 5px;
+}
+
+.form-gabung{
+    height:50px;
+    font-weight:700;
+    color:grey;
+}
+.status-red {
+    color: rgba(192, 39, 45, 1);
+    border: 3px solid rgba(192, 39, 45, 1);
+    border-radius: 5px;
+}
+
+.status-blue {
+    color: rgba(16, 158, 191, 1);
+    border: 3px solid rgba(16, 158, 191, 1);
+    border-radius: 5px;
+}
+
+.status-orange {
+    color: rgba(229, 81, 1, 1);
+    border: 3px solid rgba(229, 81, 1, 1);
+    border-radius: 5px;
+}
+
+.status-grey {
+    color: rgba(51, 51, 51, 1);
+    border: 3px solid rgba(51, 51, 51, 1);
+    border-radius: 5px;
+}
+
+.phoenix-checkbox {
+    width: 15px;
+    height: 15px;
+    color:white;
+}
+
+.text-white{
+    color:white;
+}
+
+.dark-grey-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.back-btn {
+    float: left;
+    width: 30px;
+    margin-top: 4px;
+}
+
+.grey-row {
+    background-color: rgba(241, 241, 241, 1);
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.white-row {
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.deletable-box {
+    border: 3px solid lightgrey;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    padding-top: 2px;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.remove-box {
+    position: absolute;
+    right: -10px;
+    cursor: pointer;
+    top: 6px;
+}
+
+#countchar, #countchar-preview {
+    color: rgba(27, 127, 27, 1)
+}
+.checkbox-label{
+    font-size:1.1em;
+}
+.phoenix-modal textarea {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.phoenix-modal .modal-content {
+    background-color: rgba(51, 51, 51, 1);
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom:30px;
+}
+.phoenix-modal .modal-dialog{
+    width:450px;
+}
+
+.modal-label {
+    margin-bottom: 15px;
+    color:white;
+}
+
+.form-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    box-shadow:none;
+    width:auto;
+}
+
+.form-transparent-black {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    box-shadow:none;
+    width:auto;
+}
+
+.box-white{
+    height:auto;
+    width:500px;
+    border:2px solid #eeeeee;
+    padding:30px;
+    border-radius:7px;
+}
+.text-grey{
+    color:grey;
+}
+.label-grey{
+    color:grey;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:700;
+    margin-top:20px;
+}
+.btn-blue{
+    background-color:rgba(8,114,185,1);
+    color:white;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight:700;
+    margin-top:30px;
+    width:100%;
+}
+
+.btn-green{
+    background-color:rgba(67,160,71,1);
+    color:white;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight:700;
+}
+.btn-parameter {
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
+.grey-btn {
+    background-color: rgba(127, 127, 128, 1);
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+.darkgrey-btn {
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.darkgrey-btn:hover,.darkgrey-btn:active,.darkgrey-btn:focus,.green-btn:hover,.green-btn:active,.green-btn:focus,.grey-btn:hover,
+.grey-btn:active,.grey-btn:focus{
+    color:white;
+}
+
+.modal-text {
+    color: white;
+    margin-top: 20px;
+}
+
+.countchar-container {
+    color: white;
+}
+
+.green-text{
+    color:rgba(27, 127, 27, 1);
+}
+
+.red-text{
+    color:red;
+}
+
+.orange-text{
+    color:orange;
+}
+.white-box{
+    background-color:white;
+    padding:15px;
+    border-radius:2px;
+}
+
+.blank-box {
+    height: 40px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.added-container-unabsolute {
+    text-align: right;
+}
+
+#save-btn,#cancel-btn{
+    display: none;
+}
+
+.temporary-form{
+    display: none;
+}
+
+#cek_transaksi_table tr:hover {
+    background-color:rgba(67, 159, 30, 1);
+}
+#cek_transaksi_table tr:hover > .sorting_1{
+    background-color:rgba(67, 159, 30, 1);
+}
+
+#transaction_table_filter {
+    display:none;
+}
+.toggle-status{
+    cursor: pointer;
+}
+/*
+
+ * off canvas sidebar
+ * --------------------------------------------------
+ */
+@media only screen and (max-device-width: 991px) and (orientation: portrait) {
+
+    .white-row{
+        font-size:2em;
+    }
+    .grey-row{
+        font-size:2em;
+    }
+    .phoenix-header{
+        width:108.3%;
+    }
+
+    #sidebar #menu li a {
+        height: 75px;
+        font-size:2em;
+    }
+
+    .form-control-green{
+        width:200px;
+    }
+
+    .phoenix-modal .modal-text, .phoenix-modal .modal-label, .phoenix-modal select, .phoenix-modal input, .phoenix-modal textarea, .countchar-container {
+        font-size: 1.8em;
+    }
+
+    .phoenix-checkbox{
+        width:20px;
+        height:20px;
+    }
+    .checkbox-label{
+        font-size:3em;
+    }
+    .phoenix-modal input, .phoenix-modal select {
+        height: 60px;
+    }
+
+    .deletable-box {
+        width: 200px;
+        height:60px;
+        padding-top:10px;
+        margin-left:30px;
+    }
+    .tambah_deposit_button{
+        width:50px;
+        height:41px;
+        margin-top:-5px;
+        border-radius:5px;
+    }
+    .remove-box {
+        width:35px;
+        right:-20px;
+    }
+
+    .right-view-content {
+        width: 720px;
+    }
+
+    .row-offcanvas-left.active .right-view-content {
+        width: 1013px;
+    }
+
+    .row-offcanvas-left.active div.dataTables_wrapper {
+        width: 1003px;
+    }
+
+    .row-offcanvas-left .sidebar-offcanvas {
+        float: none;
+    }
+
+    .small-btn {
+        height: 25px;
+    }
+
+    .directory-container span {
+        font-size: 1.5em
+    }
+
+    .agen-profile-picture-title {
+        width: 55px;
+    }
+
+    .subtitle {
+        font-size: 2.5em;
+    }
+
+    .subtilte-sub {
+        font-size: 1.5em;
+    }
+
+    .phoenix-tabs li {
+        font-size: 1.45em;
+    }
+
+    .grey-box {
+        margin-bottom: 20px;
+    }
+
+    .grey-box label {
+        font-size: 1.8em;
+    }
+
+    .grey-box input,
+    .grey-box select {
+        font-size: 1.8em;
+        height: 50px;
+        width: 100%;
+    }
+
+    .grey-box p {
+        font-size: 2em;
+    }
+
+    .padding-left {
+        padding-left: 0;
+    }
+
+    .row-offcanvas-left .sidebar-offcanvas {
+        width: 100%;
+    }
+    .btn-parameter{
+        height: 50px;
+        font-size: 1.7em;
+    }
+    .green-btn, .orange-btn, .red-btn, .grey-btn {
+        height: 60px;
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .phoenix-content {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-device-width: 1025px) and (orientation: landscape) {
+    .phoenix-modal .modal-text, .phoenix-modal .modal-label, .phoenix-modal select, .phoenix-modal input, .phoenix-modal textarea, .countchar-container {
+        font-size: 1.8em;
+    }
+
+    .phoenix-checkbox{
+        width:20px;
+        height:20px;
+    }
+    .checkbox-label{
+        font-size:3em;
+    }
+    .phoenix-modal input, .phoenix-modal select {
+        height: 60px;
+    }
+
+    .deletable-box {
+        width: 150px;
+    }
+    .right-view-content {
+        width: 730px;
+    }
+
+    .row-offcanvas-left.active .right-view-content {
+        width: 935px;
+    }
+
+    .row-offcanvas-left.active div.dataTables_wrapper {
+        width: 960px;
+    }
+
+    .row-offcanvas-left .sidebar-offcanvas {
+        float: none;
+    }
+
+    .small-btn {
+        height: 25px;
+    }
+
+    .directory-container span {
+        font-size: 1.5em
+    }
+
+    .agen-profile-picture-title {
+        width: 55px;
+    }
+
+    .subtitle {
+        font-size: 2.5em;
+    }
+
+    .subtilte-sub {
+        font-size: 1.5em;
+    }
+
+    .phoenix-tabs li {
+        font-size: 1.45em;
+    }
+
+    .grey-box {
+        margin-bottom: 20px;
+    }
+
+    .grey-box label {
+        font-size: 1.8em;
+    }
+
+    .grey-box input,
+    .grey-box select {
+        font-size: 1.8em;
+        height: 50px;
+        width: 100%;
+    }
+
+    .grey-box p {
+        font-size: 2em;
+    }
+
+    .padding-left {
+        padding-left: 0;
+    }
+
+    .row-offcanvas-left .sidebar-offcanvas {
+        width: 100%;
+    }
+
+    .green-btn, .orange-btn, .red-btn {
+        height: 50px;
+        width: 100%;
+        font-size: 1.7em;
+    }
+
+    .phoenix-content {
+        padding: 5px;
+    }
+}
+
+.row-offcanvas-left.active .left-submenu img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }
+
+    .row-offcanvas-left.active .sidebar-offcanvas {
+        width: 50px;
+    }
+
+    #main {
+        left: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,130 @@
+
+
+.welcome {
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+}
+
+.section {
+    padding-top: -55px;
+    padding-bottom: 20px
+
+}
+
+.search {
+    background-image: url(../../assets/images/background_gadget.jpg);
+    padding-top: 14%;
+    padding-bottom: 22%;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    -webkit-background-size: cover;
+    background-size: cover;;
+
+}
+
+#search-bar {
+    border-radius: 0;
+    height: 70px;
+    width: 70%;
+}
+
+#btn-search {
+    width: 70px
+}
+
+#triangle {
+    left: -2px;
+    position: absolute;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #50c5e4;
+    font-weight: bold;
+}
+
+.caption-box > h1 {
+    font-size: 3.5em;
+    color: #50c5e4;
+}
+
+.caption-box > #logo-pastuh {
+    margin: 0;
+}
+
+.caption-box {
+    display: none;
+}
+
+.caption-box-blue > h1 {
+    font-size: 3.5em;
+    color: #FFFFFF;
+}
+
+.caption-box-blue > #caption {
+
+    color: #FFFFFF;
+}
+
+#caption {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.30em;
+    text-align: justify;
+    color:black
+}
+#caption-icon {
+    width: 100%;
+    font-size: 1.10em;
+    text-align: center;
+    color:black
+}
+
+.nomargin {
+    margin: 0;
+    padding: 0;
+}
+
+.img-hp {
+    float: right;
+    width: 300px;
+    display: none
+}
+
+#img-logo {
+    width: 100%;
+    position: absolute;
+    right: 50px;
+    top: 160px;
+}
+
+.slider-img {
+    width: 40%;
+}
+
+* {
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.icon{
+    width: 60%;
+    margin-top:50px;
+    margin-bottom:10px
+}
+
+.icons>h2{
+    margin-bottom:10px;
+
+}
+
+@media (max-width: 991px) and (orientation: portrait){
+    .slider-img {
+        width: 70%;
+    }
+}

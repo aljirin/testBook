@@ -1,0 +1,218 @@
+
+.h1-catalog1 {
+    font-weight: bold;
+
+    font-size: 40px;
+    margin:auto;
+    padding-top:25px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.border {
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.media > a {
+    color: black;
+    text-decoration: none;
+}
+
+.griditem {
+    display: none;
+    height: 410px
+}
+
+.griditem:hover {
+    box-shadow: 0px 0px 3px 5px #eee;
+    transition: 0.2s;
+}
+
+
+.media-body > h2 {
+    font-size: 1.5em;
+}
+
+.price{
+    margin-top:10px;
+    font-size: 1.2em;
+}
+
+.media-heading {
+    font-weight: bold;
+}
+
+.pagination-sm {
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pagination-catalog1 > li > a,
+.pagination-catalog1 > li > span {
+    background: none;
+    border: none;
+    color: #333333;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.pagination-catalog1 > .active > a,
+.pagination-catalog1 > .active > span,
+.pagination-catalog1 > .active > a:hover,
+.pagination-catalog1 > .active > span:hover,
+.pagination-catalog1 > .active > a:focus,
+.pagination-catalog1 > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #31afd4;
+    border-color: #337ab7;
+}
+
+.pagination-catalog1 > .disabled > span,
+.pagination-catalog1 > .disabled > span:hover,
+.pagination-catalog1 > .disabled > span:focus,
+.pagination-catalog1 > .disabled > a,
+.pagination-catalog1 > .disabled > a:hover,
+.pagination-catalog1 > .disabled > a:focus {
+    color: #777;
+    display: None;
+    border-color: #ddd;
+}
+
+.pagination-catalog1 > li > a:hover,
+.pagination-catalog1 > li > span:hover,
+.pagination-catalog1 > li > a:focus,
+.pagination-catalog1 > li > span:focus {
+    z-index: 2;
+    background-color: #eee;
+}
+
+.pagination-catalog1 > li > a:hover {
+}
+
+.pagination-catalog1 .next > a,
+.pagination-catalog1 .next > span {
+    position: absolute;
+    right: 20%;
+    background-image: url('../images/bussiness/pagination/next.png');
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pagination-catalog1 .last > a,
+.pagination-catalog1 .last > span {
+    background-image: url('../images/bussiness/pagination/last.png');
+    position: absolute;
+    right: 10%;
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pagination-catalog1 .prev > a,
+.pagination-catalog1 .prev > span {
+    position: absolute;
+    left: 20%;
+    background-image: url('../images/bussiness/pagination/previous.png');
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pagination-catalog1 .first > a,
+.pagination-catalog1 .first > span {
+    position: absolute;
+    left: 10%;
+    background-image: url('../images/bussiness/pagination/first.png');
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-catalog1 {
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.image-container:hover > .overlay-catalog1 {
+    transition: 0.5s;
+    display: block;
+    background: rgba(50, 50, 50, 0.4);
+}
+
+.discount-badge {
+    background-image: url("../images/bussiness/gallery/discout_badge.png");
+    background-size:60%;
+    background-repeat : no-repeat;
+    transition: 0.4s;
+    width: 104px;
+    height: 94px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#normal_price{
+    font-style: italic;
+    color: #d4241f;
+    text-decoration: line-through;
+}
+
+@media (min-width: 991px) {
+    .pagination-catalog1 .prev > a,
+    .pagination-catalog1 .prev > span {
+        left:13%;
+    }
+
+    .pagination-catalog1 .next > a,
+    .pagination-catalog1 .next > span {
+        right:13%;
+    }
+}
+@media (max-width: 991px) {
+
+    .griditem {
+        display: none;
+        height: 500px
+    }
+
+}
+@media (max-width: 768px) {
+
+    .griditem {
+        display: none;
+        height: auto;
+        margin-bottom:20px
+    }
+
+}

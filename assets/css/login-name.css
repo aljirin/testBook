@@ -1,0 +1,37 @@
+.login-name{
+    background-color: #38454f;margin-top:70px;
+    height:95px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border:0;
+
+}
+
+.profile-picture{
+    position: absolute;
+    left:20px;
+    top:17%;
+    width:60px;
+    height:60px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.user-name{
+    color:white;
+    position: absolute;
+    left:100px;
+}
+
+.joined-since{
+    color:white;
+    position: absolute;
+    left:100px;
+    top:42%;
+
+}

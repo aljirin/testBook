@@ -1,0 +1,47 @@
+.footer{
+    background-color: white;
+    padding-top:40px;
+    padding-bottom:50px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display:inline-block;
+    width:100%;
+}
+
+.btn-facebook{
+    background-image: url(../../assets/images/button/facebook.png);background-size:cover;width:50px;height:50px;
+    border-radius:0
+}
+.btn-twitter{
+    background-image: url(../../assets/images/button/twitter.png);background-size:cover;width:50px;height:50px;
+    border-radius:0;
+    margin-left:10px
+}
+
+.btn-gplay{
+    background-image: url(../../assets/images/button/googleplay.png);background-size:cover;width:135px;height:47px;
+}
+
+.menu-footer>li>a{
+    text-decoration: none;
+}
+.menu-footer>li>a>h4{
+    color:#4c5250;
+    font-size: 1.3em;
+
+}
+
+@media(max-width:768px){
+    .footer{
+        padding-bottom:0;
+    }
+
+    .btn-facebook{
+        width:40px;height:40px;
+    }
+    .btn-twitter{
+        width:40px;height:40px;
+    }
+
+}

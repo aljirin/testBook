@@ -1,0 +1,292 @@
+
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.shopping-icon{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.shopping-icon-mini{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+.shopping-icon-gallery1{
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.icon {
+    transition: 0.5s;
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:100%;
+}
+
+.icon-mini{
+    transition: 0.5s;
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:100%;
+
+}
+@media (max-width: 768px){
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .shopping-icon{
+        width: 40px;
+        height: 40px;
+
+    }
+}
+.nomargin{
+    margin :0;
+    padding :0;
+}
+.icon-team{
+    transition: 0.5s;
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:100%;
+}
+
+.icon-header{
+    transition: 0.5s;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:100%;
+}
+
+.icon-search-header-black{
+    width:30px;
+    height:30px;
+    background-image: url("../images/bussiness/icon/search_black.png");
+    background-size: 100%;
+    border:0;
+    background-color:white;
+    border-radius:50px;
+}
+.icon-search-header-black-outline{
+    width:30px;
+    height:30px;
+    background-image: url("../images/bussiness/icon/search.png");
+    background-size: 100%;
+    border:0;
+    background-color:white;
+    border-radius:50px;
+}
+.catalog2_icon, .catalog3_icon{
+    margin-top: 0;
+}
+.shopping-icon-search-white-circle{
+    background-image: url('../images/bussiness/icon/search_white_circle.png');
+}
+
+.shopping-icon-search-black{
+    background-image: url('../images/bussiness/icon/search_black.png');
+}
+
+
+.shopping-icon-cart{
+    background-image: url('../images/bussiness/icon/cart.png');
+}
+.shopping-icon-love{
+    background-image: url('../images/bussiness/icon/love.png');
+}
+.shopping-icon-leftright{
+    background-image: url('../images/bussiness/icon/left_right_arrow.png');
+}
+
+.shopping-icon-cart-black{
+    background-image: url('../images/bussiness/icon/cart_black.png');
+}
+.shopping-icon-love-black{
+    background-image: url('../images/bussiness/icon/love_black.png');
+}
+.shopping-icon-leftright-black{
+    background-image: url('../images/bussiness/icon/left_right_arrow_black.png');
+}
+
+
+
+.icon-fb-black-outline {
+    background-image: url("../images/bussiness/icon/fb_black_outline.png");
+}
+
+.icon-twitter-black-outline {
+    background-image: url("../images/bussiness/icon/twitter_black_outline.png");
+}
+
+.icon-gplus-black-outline {
+    background-image: url("../images/bussiness/icon/gplus_black_outline.png");
+}
+
+
+.icon-fb {
+    background-image: url("../images/bussiness/icon/fb.png");
+}
+
+.icon-twitter {
+    background-image: url("../images/bussiness/icon/twitter.png");
+}
+
+.icon-gplus {
+    background-image: url("../images/bussiness/icon/gplus.png");
+}
+
+
+
+.icon-catalog-detail {
+    transition: 0.2s;
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:50%;
+}
+
+.icon:hover,.icon-catalog-detail:hover,.icon-mini:hover{
+    transition: 0.1s;
+    border:5px solid #0086b3;
+    border-radius:50%;
+}
+.shopping-icon:hover,.shopping-icon-mini:hover{
+    transition: 0.1s;
+    border:5px solid #f13a2b;
+    border-radius:50%;
+}
+
+.icon-fb-grey {
+    background-image: url("../images/bussiness/icon/fb_grey.png");
+}
+
+.icon-twitter-grey {
+    background-image: url("../images/bussiness/icon/twitter_grey.png");
+}
+
+.icon-gplus-grey {
+    background-image: url("../images/bussiness/icon/gplus_grey.png");
+}
+
+.icon-love-blue {
+    background-image: url("../images/bussiness/icon/love_blue.png");
+}
+
+.icon-leftrightarrow-blue{
+    background-image: url("../images/bussiness/icon/left_right_arrow_blue.png");
+}
+
+
+.icon-fb-white{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/fb_white.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.icon-twitter-white{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/twitter_white.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.icon-gplus-white{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/gplus_white.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.icon-search-white{
+    width:30px;
+    height:30px;
+    background-image: url("../images/bussiness/icon/search_black.png");
+    background-size: 100%;
+    border:0;
+    background-color:white;
+    border-radius:50px;
+}
+
+
+
+.icon-fb-black{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/fb_black.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.icon-twitter-black{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/twitter_black.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.icon-gplus-black{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+    background-image: url("../images/bussiness/icon/gplus_black.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icon-header-black{
+    width:25px;
+    margin-top:10px;
+}
+
+
+.icon-fb-color{
+    background-image: url("../images/bussiness/icon/fb_color.png");
+}
+
+
+.icon-twitter-color{
+    background-image: url("../images/bussiness/icon/twitter_color.png");
+}
+
+
+.icon-gplus-color{
+    background-image: url("../images/bussiness/icon/gplus_color.png");
+}
